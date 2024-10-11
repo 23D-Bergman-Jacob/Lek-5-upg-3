@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Rubrik{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #35424a;
+    align-items: center;
+}
+.Röd_Botten{
+    border-bottom: 3px solid #e8491d;
+}
+.röd{
+    color: #e8491d;
+    text-decoration: none;
+}
+.länkar{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.Under_rubrik{
+    background-image: url(img/showcase\ \(1\).jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        color: white;
+    }
+    h1{
+        color: white;
+        font-size: 300%;
+    }
+    text-align: center;
+    padding-top: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+}
+.Tredje_delen{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    h2{
+        color: white;
+    }
+}
+.form{
+    button{
+        background-color: #e8491d;
+        color: whitesmoke;
+        font-size: 130%;
+    }
+    input{  
+        font-size:130%;
+    }
+}
+.del4_bilder{
+    display: flex;
+    flex-direction: column;
+    img{
+        height: 100px;
+        width: 100px;
+    }
+    text-align: center;
+    align-items: center;
+    width: 25%;
+    margin-top: 2%;
+}
+.del4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(233, 233, 233);
+}
+.sidfot{
+    background-color: #e8491d;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
